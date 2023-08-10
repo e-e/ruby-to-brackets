@@ -8,7 +8,7 @@
   "repository": {
     "url": "https://github.com/e-e/ruby-to-brackets"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
