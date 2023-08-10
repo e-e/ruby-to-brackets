@@ -8,9 +8,19 @@
   "repository": {
     "url": "https://github.com/e-e/ruby-to-brackets"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "src/index.js",
   "license": "MIT",
+  "keywords": [
+    "japanese",
+    "html ruby",
+    "bracket notation",
+    "ruby tag",
+    "japanese bracket notation",
+    "japanese ruby tag",
+    "japanese brackets",
+    "japanese ruby"
+  ],
   "scripts": {
     "build": "tsc",
     "publish": "yarn build && npm publish",
