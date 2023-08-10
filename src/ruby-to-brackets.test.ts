@@ -11,4 +11,11 @@ describe("rubyToBrackets", () => {
     const actual = rubyToBrackets(html2);
     expect(actual).toBe(brackets2);
   });
+
+  it("test - 3", () => {
+    const html = "これは<ruby>文章<rt>ぶんしょう</rt></ruby>だ。";
+    const expected = "これは文章[ぶんしょう]だ。";
+    const actual = rubyToBrackets(html);
+    expect(actual).toBe(expected);
+  });
 });

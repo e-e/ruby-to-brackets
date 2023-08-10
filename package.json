@@ -5,7 +5,10 @@
     "name": "Eric Ellingson",
     "url": "https://eric.wtf"
   },
-  "version": "1.0.2",
+  "repository": {
+    "url": "https://github.com/e-e/ruby-to-brackets"
+  },
+  "version": "1.0.3",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
